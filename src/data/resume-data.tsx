@@ -63,7 +63,7 @@ export const RESUME_DATA = {
       company: "Stoccoin",
       link: "https://stoccoin.vercel.app/",
       badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      title: "Full Stack Developer Intern",
       logo: ParabolLogo,
       start: "Oct 2022",
       end: "Feb 2023",
@@ -89,9 +89,30 @@ export const RESUME_DATA = {
     "Node.js",
     "ExpresJs",
     "MySql",
-    "WebRTC",
+    "MongoDb",
+    "TailwindCss",
+    
   ],
   projects: [
+    {
+      title: "InteractAI",
+      techStack: [
+        "Side Project",
+        "Javascript",
+        "React.js",
+        "Vite",
+        "Node.Js",
+        "MongoDb",
+        "OpenAPI"
+      ],
+      description: "A platform designed to assist with information, creativity, and conversation through natural language processing.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "interactAI.com",
+        href: "https://interactai.netlify.app/",
+      },
+    },
+  
     {
       title: "Payment virtual money wallet money transfer",
       techStack: [
@@ -143,114 +164,38 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Allen Website",
+      techStack: ["College Club Project", "React.Js", "Css"],
       description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
+        "Clone of allen website - developed for the practice",
+      logo: Minimal,
       link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
+        label: "allen.in",
+        href: "https://allen-ecru.vercel.app/",
       },
     },
     {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
+      title: "Eth-Sol-web-Based-Wallet",
+      techStack: ["College Club Project", "React.Js","TailwindCss", "Solana", "Ethereum"],
+      description:
+        "Ethereum and solana based wallet project",
+      logo: Minimal,
       link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
+        label: "ethsol.com",
+        href: "https://eth-sol-web-wallet.vercel.app/",
       },
     },
     {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
+      title: "Blockchain Miner",
+      techStack: ["College Club Project", "React.Js","TailwindCss", "Solana", "Ethereum"],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
+        "A blockchain miner is a participant in a decentralized network who uses computational power to validate and add transactions to the blockchain, earning rewards in the process.",
+      logo: Minimal,
       link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+        label: "blockchainminer.com",
+        href: "https://blockchain-miner.vercel.app/",
       },
     },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
-    },
+    
   ],
 } as const;
